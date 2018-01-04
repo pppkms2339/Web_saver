@@ -144,7 +144,7 @@ public class JWindow extends JFrame {
                     }
                 } catch (IOException e) {
                     //e.printStackTrace();
-                    JOptionPane.showMessageDialog(null, UNKNOWN_ERROR_MESSAGE, WINDOW_TITLE, JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(null, ERROR_MESSAGE_QUIT + e.getMessage(), WINDOW_TITLE, JOptionPane.ERROR_MESSAGE);
                 } finally {
                     try {
                         in.close();

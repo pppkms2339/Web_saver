@@ -29,7 +29,7 @@ public class Constant {
     public static final String DELETE_MESSAGE = "Удалить выбранный элемент?";
     public static final String DELETE_NOT_EMPTY = "В удаляемой папке есть файлы. Все равно удалить?";
     public static final String INPUT_NEW_FOLDER = "Введите имя новой папки";
-    public static final String UNKNOWN_ERROR_MESSAGE = "Неизвестная ошибка";
+    public static final String ERROR_MESSAGE_QUIT = "Произошла ошибка. Приложение будет закрыто." + System.lineSeparator() + "Error: ";
     public static final String NEED_SELECT_FILE = "Укажите файл, который нужно скачать";
     public static final String MESSAGE_FILE_EXISTS = "Такой файл уже существует. Перезаписать его?";
     public static final String MESSAGE_INPUT_IP = "Введите IP-адрес сервера (пустая строка = 'localhost')";

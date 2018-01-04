@@ -35,6 +35,9 @@ public class Server {
                     break;
                 }
             }
+            if(!DB_PATH.endsWith("\\")) {
+                DB_PATH += "\\";
+            }
             WORK_PATH = new File("").getAbsolutePath().toString() + "\\";
             System.out.println("Now the work path is: " + WORK_PATH);
             while(true) {
@@ -48,6 +51,9 @@ public class Server {
                     WORK_PATH = scanner.nextLine();
                     break;
                 }
+            }
+            if(!WORK_PATH.endsWith("\\")) {
+                WORK_PATH += "\\";
             }
             System.out.println("Server is running, waiting for clients");
             while (true) {
